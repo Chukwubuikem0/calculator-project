@@ -58,6 +58,7 @@ function Chuks (){
                     <button onClick={() => updateCalc('*')}>*</button>
                     <button onClick={() => updateCalc('+')}>+</button>
                     <button onClick={() => updateCalc('-')}>-</button>
+                    
                     <button onClick={deleteLast}>DEL</button>
                     </div>
 
