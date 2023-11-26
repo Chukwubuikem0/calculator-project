@@ -6,12 +6,12 @@ function Chuks (){
     const [calc, setCalc] = useState("");
     const [result, setResult] = useState("")
 
-    const opt = ['/', '*', '+', '-', '.'];
+    const ops = ['/', '*', '+', '-', '.'];
 
-    const updateCalc = value => {
+    const updateCalc = value => {  
         if (
-            opt.includes(value) && calc === '' ||
-            opt.includes(value) && opt.includes(calc.slice(-1)
+            ops.includes(value) && calc === '' ||
+            ops.includes(value) && ops.includes(calc.slice(-1)
             )
         ) {
             return;
@@ -19,8 +19,8 @@ function Chuks (){
 
         setCalc(calc + value);
 
-        if(!opt.includes(value)){
-            setResult(eval(calc + value).toString());
+        if(!ops.includes(value)){
+            setResult.toString();
         }
     }
     const createDigits = () =>{
@@ -49,8 +49,8 @@ function Chuks (){
         <div className="container">
             <div className="calculator">
                <div className="display">
-               {result ? <span >({result})</span> : ''}
-                {calc || "0"}
+               <h3>{result ? <span >({result})</span> : ''}
+                {calc || "0"}</h3>
                 </div>
 
                 <div className="operators">
