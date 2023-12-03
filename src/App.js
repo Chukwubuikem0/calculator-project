@@ -1,10 +1,10 @@
 import React from "react";
-import Calculator from './Calculator'
+import Chibuike from './Chibuike'
 
 function App() {
   return (
     <div className="App">
-      <Calculator/>
+      <Chibuike/>
     </div>
   );
 }
