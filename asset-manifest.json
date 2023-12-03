@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/calculator-project/static/css/main.45af5989.css",
-    "main.js": "/calculator-project/static/js/main.a510935a.js",
-    "index.html": "/calculator-project/index.html",
-    "main.45af5989.css.map": "/calculator-project/static/css/main.45af5989.css.map",
-    "main.a510935a.js.map": "/calculator-project/static/js/main.a510935a.js.map"
+    "main.css": "/Dog-App/static/css/main.8bb8faae.css",
+    "main.js": "/Dog-App/static/js/main.48ae36b5.js",
+    "static/media/doglogo2.png": "/Dog-App/static/media/doglogo2.562a79836e035430a0e0.png",
+    "index.html": "/Dog-App/index.html",
+    "main.8bb8faae.css.map": "/Dog-App/static/css/main.8bb8faae.css.map",
+    "main.48ae36b5.js.map": "/Dog-App/static/js/main.48ae36b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.45af5989.css",
-    "static/js/main.a510935a.js"
+    "static/css/main.8bb8faae.css",
+    "static/js/main.48ae36b5.js"
   ]
 }
